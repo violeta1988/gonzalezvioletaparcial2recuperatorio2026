@@ -1,0 +1,2 @@
+# gonzalezvioletaparcial2recuperatorio2026
+recuperatorio
