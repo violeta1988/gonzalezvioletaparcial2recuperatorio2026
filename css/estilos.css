@@ -1,0 +1,119 @@
+
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing: border-box;
+	text-align: center;
+	
+}
+
+
+body {
+    font-family: Abel, sans-serif;
+    background-image: url(../img/fondo.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 50px;
+
+  
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    background-color: black;
+    padding: 10px;
+}
+
+
+.menu li {
+    margin: 15px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: beige;
+    font-size: 24px;
+    padding: 10px;
+}
+
+
+.menu a:hover {
+    color: #21B7FD;
+}
+
+#contenedor {
+	width: 100%;
+	max-width: 900%;
+	margin: 1rem auto;
+	background-color: lightpink;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.columnas {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    margin: 20px;
+  
+}
+
+.secciones-columnas {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+	  margin: 15px;
+    border: 15px;
+}
+
+.centrado {
+	text-align: center;
+}
+
+.espaciado {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: white;
+}
+
+
+
+.dato {
+	padding: 2rem;
+	position: auto;
+	color: grey;
+	background-color: ghostwhite;
+	bottom: 2rem;
+	
+	left: 1rem;
+	align-items: center;
+
+}
+
+
+	}
+
+
+#datoCurioso{
+	position: fixed;
+	top: 5rem;
+	right: 1rem;
+}
+
+
+
+
