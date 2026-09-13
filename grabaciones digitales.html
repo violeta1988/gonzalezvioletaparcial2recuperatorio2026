@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+    <title>LAURIE ANDERSON</title>
+</head>
+
+<div id="contenedor">
+    <header class="centrado">
+
+    <h1>*-*-*-LAURIE ANDERSON-*-*-*</h1>
+
+    <h2><em>Performance, tecnología y narración en el arte contemporáneo</em></h2>
+    <hr>
+
+    <nav>
+        <ul class="menu">
+            
+            <li><a href="index.html">Biografía</a></li>
+            <li><a href="obra.html">Obras</a></li>
+            <li><a href="grabaciones digitales.html">Grabaciones Digitales</a></li>
+        </ul>
+    </nav>
+  </header>
+
+            <h1>Gestión de Repositorio Digital - Laurie Anderson</h1>
+      
+        <main>
+
+            <!-- FORMULARIO 1: configuración inicial -->
+            <section>
+                <form>
+                    <fieldset id="grupo-setup">
+                        <legend>1. Configuración del Repositorio</legend>
+                        
+                        <label for="cant-obras">Cantidad de obras a almacenar:</label>
+                        <input type="number" id="cant-obras">
+
+                        <label for="tiempo-transf">Tiempo de transferencia estimado (ms por MB):</label>
+                        <input type="number" id="tiempo-transf">
+
+                        <label for="costo-mb">Costo mensual de almacenamiento ($ por MB):</label>
+                        <input type="number" id="costo-mb">
+
+                        <button type="button" id="btn-configurar">Iniciar Carga</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <!-- FORMULARIO 2: Carga individual de obras (deshabilitado inicialmente) -->
+            <section>
+                <form>
+                    <fieldset id="grupo-carga">
+                        <legend>2. Carga de Obra N° <span id="num-obra">1</span></legend>
+
+                        <label for="nombre-obra">Nombre de la obra:</label>
+                        <input type="text" id="nombre-obra" disabled>
+
+                        <label for="duracion-obra">Duracion (en minutos):</label>
+                        <input type="number" id="duracion-obra" disabled>
+
+                        <label for="peso-obra">Peso del archivo (en MB):</label>
+                        <input type="number" id="peso-obra" disabled>
+
+                        <button type="button" id="btn-guardar" disabled>Guardar Obra</button>
+                        <button type="button" id="btn-calcular" disabled>Calcular Resultados</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <!-- SECCION 3: Muestra de resultados y reinicio -->
+            <section>
+                <h2>Resultados del Repositorio</h2>
+                
+                <div id="caja-resultados"></div>
+                <button type="button" id="btn-reiniciar" disabled>Reiniciar Sistema</button>
+            </section>
+
+        </main>
+
+     <footer class="centrado espaciado">
+Los textos fueron generados por ChatGPT y adaptados a la consigna. Pueden contener errores. Las imágenes fueron recopiladas de Internet únicamente para su uso en este parcial.
+<address>
+Para contactarse escribir en  
+<a href="https://laurieanderson.com/contact/">contact</a>
+</address>
+</footer>
+
+   
+    <script src="js/grabacionesdigitales.js"></script>
+</body>
+</html>
