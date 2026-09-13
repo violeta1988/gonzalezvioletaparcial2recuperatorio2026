@@ -1,2 +1,4 @@
 # gonzalezvioletaparcial2recuperatorio2026
-recuperatorio
+UNIVERSIDAD ARTES MULTIMEDIALES UNA
+PARCIAL 2 / 2026
+GONZALEZ VIOLETA
