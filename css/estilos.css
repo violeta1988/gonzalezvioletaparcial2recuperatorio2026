@@ -9,7 +9,7 @@
 
 
 body {
-    font-family: Abel, sans-serif;
+    font-family: Arial, sans-serif;
     background-image: url(../img/fondo.png);
     background-repeat: repeat;
     background-attachment: fixed;
@@ -22,6 +22,12 @@ body {
 
   
 }
+
+h1, h2, h3 {
+  font-family: 'Abel', sans-serif;
+
+}
+
 
 .menu {
     display: flex;
@@ -73,7 +79,7 @@ body {
 
 .secciones-columnas {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: flex-start;
 	align-items: stretch;
 	  margin: 15px;
@@ -90,30 +96,57 @@ body {
 	background-color: white;
 }
 
-
-
-.dato {
-	padding: 2rem;
-	position: auto;
-	color: grey;
-	background-color: ghostwhite;
-	bottom: 2rem;
-	
-	left: 1rem;
-	align-items: center;
-
+/* DATO CURIOSO */
+#dato-curioso {
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: 2px solid #333;                      
+  padding: 1rem;                               
+  margin: 2rem 0;
+  text-align: center;
 }
 
-
-	}
-
-
-#datoCurioso{
-	position: fixed;
-	top: 5rem;
-	right: 1rem;
+#dato-curioso h3 {
+  font-family: 'Abel', sans-serif;
+  margin-bottom: 1rem;
 }
 
+#texto-dato {
+  font-size: 3rem;
+  color: grey;
+  margin-bottom: 1rem;
+}
 
+#btn-dato {
+  background-color: skyblue;
+  color: red;
+  border: none;
+  padding: 0.5rem 1rem;
+}
 
+/* hover para interacción al pasar el mouse */
+#btn-dato:hover {
+  background-color: pink;
+ 
+}
+
+/* OBRAS */
+
+.obras {
+  width: fit-content;
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+}
+
+.obras li {
+  display: list-item;
+}
+
+button#verGaleria
+{
+padding: 50px;
+font-size: 50px;
+color: gold;
+  
+}
 
